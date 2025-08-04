@@ -1,7 +1,7 @@
 import { Download, MessageCircle } from "lucide-react";
 const HeroFloatingActions = () => {
   const handleDownloadCatalogue = () => {
-    window.open('/Encanto-Brochure.pdf', '_blank');
+    window.open('/lovable-uploads/Encanto-Brochure.pdf', '_blank');
   };
   const handleWhatsAppClick = () => {
     const phoneNumber = "918097465332";

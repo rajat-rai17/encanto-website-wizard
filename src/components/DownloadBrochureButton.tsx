@@ -6,7 +6,7 @@ const DownloadBrochureButton = () => {
   const [isHovered, setIsHovered] = useState(false);
   
   const handleDownloadClick = () => {
-    window.open('/Encanto-Brochure.pdf', '_blank');
+    window.open('/lovable-uploads/Encanto-Brochure.pdf', '_blank');
   };
 
   return (
